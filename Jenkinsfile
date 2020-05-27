@@ -8,7 +8,7 @@ node {
     }
 }
 
-node('docker') {
+node('master') {
 
     stage('Clone repository on slave') {
         /* Let's make sure we have the repository cloned to our workspace */
